@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+  background-color:  #0e3a5c;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+.App{
+  border: 1px solid #fff;
+  margin: 100px 30%;
+  text-align: center;
+  border-radius: 5px;
+  background-color:rgb(24 ,24,27);
+  border: 1px solid rgba(63,63,70,0.4);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.App .navbar{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 16px;
+ padding: 5px 10px;
+ margin: 0 30px;
+ position: relative;
+}
+.App .navbar .line{
+  border-bottom: 2px solid #2089DC;
+  width: 50px;
+  position: absolute;
+  z-index: 3;
+  margin-top: 94px;
+  margin-left: -230px;
+ }
+.divider{
+  border-bottom: 1px solid rgba(63,63,70,0.4);
+  margin: 0.5rem 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.App .navbar li{
+  list-style: none;
+  margin: 16px 20px;
+ }
+
+ .App .hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10 30px;
+  padding: 0 20px;
+ }
+
+ .App .hero-text{
+  margin: 16px 0;
+}
+.App .hero h2{
+  color: #fff;
+}
+.App .hero p{
+  color: gray;
+  font-size: 14px;
+  margin-top: -10px;
+}
+.App .hero span{
+  color: gray;
+  font-size: 20px;
+}
+
+
+.App ul{
+  list-style: '⬜';
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+  margin: 18px;
+  margin-top: 20px;
+
+}
+.App ul span{
+  margin-right: 30px;
+}
+.App .inpt{
+  display: flex;
+  position: relative;
+}
+.App input{
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+  margin: auto;
+  background-color: #262323;
+  border: 1px solid #3e3838;
+  padding: 0 20px;
+}
+.App input[type="text"]{
+  color: #ece5e5;
+  font-size: 14px;
+
+}
+.App button{
+  width: 35px;
+  height: 35px;
+  list-style: '➕';
+  background-color: #2089dc;
+  color: #fff;
+  border-radius: 75px;
+  border: 0;
+  position: absolute;
+  float: right;
+  margin-left: 450px;
+  margin-top: 4px;
+}
+.App ul li{
+  word-wrap: break-word;
+  /* overflow-wrap: break-word; */
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 20px;
+  padding: 10px 0;
+}
+.App .diffstyle{
+  list-style: '☑️';
+  text-decoration: line-through;
+}
+.App .div10{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
